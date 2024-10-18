@@ -1,0 +1,641 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Graphik;
+}
+
+
+.home-bg-container {
+    width: 100vw;
+    height: 100%;
+}
+
+.nav-bar {
+    width: 100%;
+    height: 70px;
+    background-color: transparent;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    z-index: 1000;
+    padding: 20px;
+}
+
+.brand {
+    font-size: 30px;
+    color: white;
+    font-weight: bold;
+}
+
+.nav-link-container{
+    display: none;
+}
+
+.nav-link {
+    font-size: 24px;
+    color: white;
+    margin-right: 100px;
+    cursor: pointer;
+}
+
+.menu-icon-container{
+    height: 30px;
+    width: 30px;
+    background-color: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 3px;
+    cursor: pointer;
+}
+
+.menu-icon-line {
+    width: 100%;
+    height: 2px;
+    background-color: white;
+    margin-bottom: 5px;
+}
+
+.welcome-section {
+    width: 100%;
+    height: 100vh;
+    padding: 20px;
+    padding-top: 150px;
+    background-color: black;
+}
+
+.intro-text{
+    font-size: 30px;
+    color: white;
+    width: 70%;
+}
+
+.play-reel-section {
+    width: 100%;
+    height: 100vh;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.play-reel-text {
+    color: white;
+    font-size: 60px;
+    text-align: center;
+}
+
+.meet-our-brand-section {
+    width: 100%;
+    height: 100%;
+    padding: 20px;
+    padding-top: 60px;
+    background-color: black;
+}
+
+.meet-our-brands-heading {
+    color: white;
+    font-size: 30px;
+}
+
+.meet-our-brands-text{
+    color: white;
+    font-size: 20px;
+    margin-top: 30px;
+}
+
+.meet-our-brands-image-section {
+    margin-top: 20px;
+    background-color: transparent;
+}
+
+.meet-our-brands-img-container {
+    width: 100%;
+    background-color: transparent;
+    margin-bottom: 10px;
+}
+
+.brands-img-text-container{
+    width: 100%;
+}
+
+.brands-img-text-heading {
+    color: white;
+    font-size: 20px;
+    padding-bottom: 5px;
+}
+
+.brand-description {
+    color: gray;
+    font-size: 18px;
+}
+
+.brands-img {
+    width: 100%;
+    padding-bottom: 5px;
+}
+
+.services-section {
+    width: 100%;
+    height: 100%;
+    padding: 20px;
+    padding-top: 50px;
+    background-color: black;
+    padding-bottom: 50px;
+}
+
+.company-logos-container {
+    width: 100%;
+    height: 200px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.company-logo {
+    background-color: white;
+    color: white;
+    width: 200px;
+    height: 100px;
+    padding: 10px;
+}
+
+.services-text-container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+}
+
+.services-intro-text {
+    font-size: 30px;
+    color: white;
+    padding-bottom: 20px;
+}
+
+.brands-services-description-container {
+   width: 100%;
+   display: flex;
+   flex-direction: column;
+}
+
+.brands-services-description-element {
+    width: 100%;
+    margin-top: 30px;
+}
+
+.services-heading {
+    color: white;
+    font-size: 22px;
+}
+
+.services-list{
+    list-style-type: none;
+}
+
+.service {
+    color: white;
+    font-size: 20px;
+}
+
+.services-img-section {
+    height: 100%;
+    width: 100%;
+    padding: 20px;
+    padding-top: 50px;
+    background-color: black;
+}
+
+.services-img-section-container {
+    width: 100%;
+    margin-bottom: 35px;
+}
+
+.digital-thinkers-thumnail {
+    width: 70%;
+}
+
+.service-img-element {
+    width: 100%;
+    padding-bottom: 5px;
+}
+
+.culture-section {
+    width: 100%;
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: black;
+    padding: 20px;
+}
+
+.culture-section-heading {
+    font-size: 30px;
+    color: white;
+    margin-bottom: 25px;
+}
+
+.culture-section-sub-heading {
+    color: white;
+    font-size: 25px;
+}
+
+.culture-img-section {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    background-image: url('https://burocratik.com/wp-content/uploads/2019/06/couroazul-poster.jpg');
+    background-size: cover;
+}
+
+.culture-img-section-container {
+    width: 100%;
+}
+
+.culture-img-section-text-container {
+    height: 50vh;
+}
+
+.culture-img-section-text-container1-text {
+    width: 100px;
+    color: white;
+    font-size: 14px;
+}
+
+.culture-img-section-text-container2-text {
+    color: white;
+    font-size: 30px;
+    width: 70%;
+}
+
+.view-case-study-text {
+    display: none;
+}
+
+.under-line {
+    display: none;
+}
+
+.review-section {
+    width: 100%;
+    height: 100%;
+    padding: 70px 20px 70px 20px;
+    background-color: black;
+}
+
+.review-heading {
+    color: white;
+    font-size: 26px;
+    margin-bottom: 40px;
+}
+
+.review-description {
+    color: white;
+    font-size: 35px;
+}
+
+.team-image-section {
+    width: 100%;
+    height: 100%;
+    padding: 50px 20px 50px 20px;
+    background-color: black;
+}
+
+.team-image-container {
+    width: 100%;
+    margin-bottom: 40px;
+}
+
+.team-img {
+    width: 100%;
+    margin-bottom: 8px;
+}
+
+.awards-text-container {
+    width: 100%;
+    height: 100%;
+    padding: 50px 20px 50px 20px;
+    background-color: black;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.awards-text {
+    width: 100%;
+    color: white;
+    font-size: 35px;
+}
+
+.latest-award-section {
+    width: 100%;
+    height: 100%;
+    padding: 50px 20px 50px 20px;
+    background-color: black;
+}
+
+.latest-award-heading {
+    font-size: 28px;
+    color: white;
+}
+
+.latest-award-container {
+    margin-top: 20px;
+    margin-bottom: 40px;
+    display: flex;
+}
+
+.award-section-list-container {
+    list-style-type: none;
+}
+
+.award-list-heading {
+    font-size: 17px;
+    color: gray;
+    margin-bottom: 6px;
+}
+
+.awards {
+    color: white;
+    font-size: 20px;
+    margin-bottom: 6px;
+}
+
+.award-section-list-container1 {
+   width: 20%;
+}
+
+.latest-award-sub-container {
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.project-awards-container {
+    display: none;
+}
+
+.culture-img-section2 {
+    background-image: url('https://burocratik.com/wp-content/uploads/2019/10/sudd_header.jpg');
+}
+
+.footer-section {
+    width: 100%;
+    height: 100%;
+    padding: 60px 20px 60px 20px;
+    display: flex;
+    background-color: black;
+}
+
+.footer-content-container {
+    width: 220px;
+    margin-right: 50px;
+}
+
+.footer-content-heading {
+    color: white;
+    font-size: 28px;
+    margin-bottom: 50px;
+}
+
+.footer-text {
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.white {
+    color: white;
+}
+
+.gray {
+    color: gray;
+}
+
+.email {
+    margin-bottom: 20px;
+}
+
+.footer-list {
+    list-style-type: none;
+    color: white;
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+
+.lg-footer {
+    display: none;
+}
+
+@media(min-width: 950px) {
+    .nav-link-container {
+        width: 60%;
+        list-style-type: none;
+        display: flex;
+        align-items: center;
+    }
+
+    .menu-icon-container {
+        display: none;
+    }
+
+    .intro-text {
+        width: 60%;
+        font-size: 45px;
+    }
+
+    .play-reel-text {
+        font-size: 100px;
+    }
+
+    .meet-our-brands-heading {
+        font-size: 60px;
+    }
+
+    .meet-our-brands-text {
+        font-size: 30px;
+    }
+
+    .meet-our-brands-image-section {
+       display: flex;
+       align-items: flex-start;
+    }
+
+    .meet-our-brands-img-container1 {
+        width: 40%;
+    }
+
+    .meet-our-brands-img-container2 {
+        width: 55%;
+    }
+
+    .services-section {
+        display: flex;
+    }
+
+    .company-logos-container {
+        width: 40%;
+    }
+
+    .services-text-container {
+        width: 60%;
+    }
+
+    .brands-services-description-element {
+        width: 70%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .service-img-bg {
+        display: flex;
+    }
+
+    .services-img-section-container1 {
+        width: 70%;
+    }
+
+    .services-img-section-container2 {
+        width: 30%;
+        align-self: flex-end;
+    }
+
+    .digital-thinkers-thumnail {
+        width: 40%;
+    }
+
+    .culture-img-section-container {
+        display: flex;
+        align-items: fle;
+    }
+
+    .culture-img-section-text-container {
+        width: 50%;
+    }
+
+    .culture-img-section-text-container {
+        height: 300px;
+    }
+    
+    .culture-img-section-text-container2-text {
+        font-size: 60px;
+    }
+
+    .culture-img-section-text-container1-text {
+        font-size: 30px;
+    }
+    
+    .view-case-study-text {
+        display: block;
+        font-size: 35px;
+        color: white;
+        padding-bottom: 10px;
+        cursor: pointer;
+        margin-top: 50px;
+    }
+
+    .view-container {
+        width: 270px;
+    }
+
+    .under-line {
+        width: 100%;
+        background-color: gray;
+        height: 2px;
+    }
+
+    .review-heading{
+        width: 350px;
+        font-size: 23px;
+    }
+
+    .review-description {
+        font-size: 70px;
+    }
+
+    .team-image-section {
+        display: flex;
+    }
+
+    .team-image-container1 {
+        width: 70%;
+    }
+
+    .team-image-container2 {
+        width: 30%;
+    }
+
+    .awards-text {
+        width: 60%;
+    }
+
+    .award-section-list-container1 {
+        width: 40%;
+     }
+     
+     .latest-award-sub-container {
+        width: 60%;
+     }
+
+     .project-awards-container {
+        display: block;
+     }
+
+     .lg-footer {
+        display: block;
+        align-self: flex-end;
+     }
+
+     .under-line {
+        display: block;
+     }
+
+     .menu-section {
+        display: none;
+     }
+}
+
+.display-none {
+    display: none;
+}
+
+.black {
+    color: black;
+}
+
+.menu-section {
+    height: 100vh;
+    background-color: white;
+    padding: 150px 30px 100px 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.menu-intro {
+    font-size: 40px;
+}
+
+.menu-footer-section {
+    display: flex;
+}
+
+.menu-footer {
+    width: 40%;
+    flex-shrink: 1;
+    flex-grow: 1;
+    margin-right: 30px;
+}
+
+.close {
+    color: black;
+    font-size: 28px;
+    cursor: pointer;
+}
