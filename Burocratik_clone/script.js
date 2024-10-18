@@ -9,5 +9,6 @@ document.addEventListener("DOMContentLoaded", function() {
         brand.classList.toggle('black')
         menuSection.classList.toggle('display-none')
         close.classList.toggle('display-none')
+        menuSection.classList.toggle('menu-section')
     }
 })
